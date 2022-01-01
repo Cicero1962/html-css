@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2? family = PT + Serif & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Cookie & display = swap');
+@import url('https://fonts.googleapis.com/css2? family = Redigido + Script & display = swap');
+
+:root{
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'PT Serif', serif;
+    --fonte3:'Cookie', cursiva;
+    --fonte4:'Escrita redigida', cursiva;
+}
+
+body{
+    background-color: darkgray;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div#container{
+    display: block;
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+div#container p{
+    text-indent: 40px;
+}
+div#container h2.fonte{
+    color: black;
+    background-color: #dddddd;
+}
+header#cabecalho{
+    display: block;
+    background: url("projeto-glass-html5/_imagens/glass-logo-peq.jpg") no-repeat 10px 80px;
+    background-color: white;
+    border-bottom: 1px solid darkgray;
+    width: 100%;
+    height: 150px;
+    margin-top: -22px;
+}
+header#cabecalho div h1{
+    margin-left: 20px;
+    font-family: var(--fonte4);
+}
+header#cabecalho div h2{
+   margin: -20px 0px 0px 20px;
+   color: #dddddd;
+}
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -15px;
+    left: 47%;
+}
+nav#menu li{
+    display: inline;
+    background-color: #dddddd;
+    padding: 2px;
+    box-sizing: border-box;
+    color: black;
+    
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu li a{
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+}
+nav#menu li a:hover{
+    color: darkred;
+    text-decoration: underline;
+}
+main{
+    display: block;
+    width: 100%;
+    background-color: white;
+}
+div#corpo{
+    display: block;
+    width: 70%;
+    float: left;
+    border-right: 1px solid darkgray;
+    padding-right: 15px;
+    padding-left: 4px;
+    box-shadow: 1px 1px 8px #6060604e;
+    box-sizing: border-box;
+
+}
+div#corpo h4{
+    display: block;
+    float: right;
+    margin-top: -5px;
+    font-size: 0.8em;
+    font-style: italic;
+    color: #606060;
+}
+div#corpo h1{
+    margin-left: 20px;
+   
+}
+div#corpo h2{
+    margin-left: 20px; 
+    padding: 5px;
+}
+div#corpo p{
+    margin-left: 20px;
+}
+div#corpo h3{
+    margin-left: 20px;
+    color: #dddddd;
+    font-family: 'Filha dos arquitetos', cursiva;
+    
+}
+
+div#corpo h3.especial{
+    margin: -20px 0px 0px 20px;
+}
+table#tabelaspec{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table#tabelaspec caption{
+    color: #bab8b8;
+    font-weight: bold;
+    text-align: center;
+}
+table#tabelaspec caption span{
+    display: block;
+    float: right;
+    font-size: 0.7em;
+    color: black;
+    margin-top: 10px;
+}
+table#tabelaspec td{
+    border: 1px solid #606060;
+    padding: 10px;
+}
+table#tabelaspec td.cd{
+    background-color: #dddddd;
+}
+table#tabelaspec td.ce{
+    background-color: #606060;
+    color: white;
+}
+
+img#foto{
+    position: absolute;
+    left:69% ;
+    top:50px ;
+    }
+img.foto{
+    width: 100%;
+    box-shadow: 1px 1px 8px #60606061;
+}
+div.video{
+    background-color: #dddddd;
+    margin: 0px 0px 20px -0px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 54%;
+    box-sizing: border-box;
+}
+div.video iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+aside#lateral{
+    display: block;
+    width: 30%;
+    background-color: #dddddd;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+    box-shadow: 1px 1px 8px #606060;
+    box-sizing: border-box;
+}
+aside#lateral h2{
+    background-color: #606060;
+    color: white;
+    font-family: 'Kalam', cursiva;
+}
+aside#lateral h1{
+    font-family: var(--fonte4);
+}
+aside#lateral p{
+    text-align: justify;
+    text-indent: 20px;
+
+}
+footer#rodape{
+    color: black;
+    text-align: center;
+    clear: both;
+    background-color: white;
+    border-top: 1px solid darkgray;
+    margin: 1px;
+    padding: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+footer#rodape p{
+    margin: 0px;
+    font-weight: normal;
+}
+footer#rodape p a{
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: italic;
+}
+footer#rodape p a span{
+    color: #989595;
+}
+footer#rodape p a:hover{
+    color: darkred;
+}
+footer#rodape p a span:hover{
+    color: darkred;
+}
